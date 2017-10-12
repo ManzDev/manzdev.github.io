@@ -46,6 +46,31 @@ a[href^='http://codepen.io']::before {
     content: '\F1CB' ' ';
 }
 
+a[href^='https://youtube.com']::before,
+a[href^='https://www.youtube.com']::before {
+    content: '\F16A' ' ';
+}
+
+a[href^='https://www.emezeta.com']::before {
+    content: '\F040' ' ';
+}
+
+a[href^='https://lenguajehtml.com']::before,
+a[href^='https://lenguajecss.com']::before,
+a[href^='https://lenguajejs.com']::before {
+    content: '\F121' ' ';
+}
+
+a[href^='https://twitter.com']::before,
+a[href^='https://www.twitter.com']::before {
+    content: '\F099' ' ';
+}
+
+a[href^='https://linkedin.com']::before,
+a[href^='https://www.linkedin.com']::before {
+    content: '\F08C' ' ';
+}
+
 a:hover {
     color:#a71616
 }
