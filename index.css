@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo|Montserrat:600');
+
+.page {
+    max-width:1024px;
+    margin:auto;
+    font-family:Heebo, Arial;
+    font-size:18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:Montserrat;
+    font-weight:600;
+}
+
+h1 {
+    border-bottom:1px solid #333;
+}
+
+.long {
+    width:800px;
+}
+
+ul.items span a {
+    color:#111;
+
+}
+
+a[href]::before,
+a[href]::before {
+    font-family: FontAwesome;
+    content: '\F14C' ' ';
+}
+
+a[href^='https://github.com']::before,
+a[href^='http://github.com']::before {
+    content: '\F113' ' ';
+}
+
+a[href^='https://manzdev.github.io']::before,
+a[href^='http://manzdev.github.io']::before {
+    content: '\F13B' ' ';
+}
+
+a[href^='https://codepen.io']::before,
+a[href^='http://codepen.io']::before {
+    content: '\F1CB' ' ';
+}
+
+a:hover {
+    color:#a71616
+}
+
+.flex {
+    display:flex;
+}
