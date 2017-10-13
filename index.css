@@ -78,3 +78,15 @@ a:hover {
 .flex {
     display:flex;
 }
+
+.social.items {
+  margin:0!important;
+}
+
+.social.items li {
+  display:inline-block;
+}
+
+.social.items a {
+  text-decoration:none
+}
