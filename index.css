@@ -14,6 +14,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     border-bottom:1px solid #333;
+    margin-bottom:0    
 }
 
 .long {
@@ -81,10 +82,13 @@ a:hover {
 
 .social.items {
   margin:0!important;
+  text-align:right;
+  padding:0 20px;
 }
 
 .social.items li {
   display:inline-block;
+  padding:2px;
 }
 
 .social.items a {
